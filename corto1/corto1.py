@@ -9,7 +9,7 @@ def impares(N):
     ans2=3*N+1
     return ans2
 
-archivo=open("collatz.txt","w")
+archivo=open("corto1/collatz.txt","w")
 
 for i in range(2,189,1):    #Todo dentro de una lista para que ejecute cada secuencia en una linea diferente
     lista=[i]
